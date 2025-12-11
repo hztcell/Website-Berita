@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal Berita</title>
+  <link rel="stylesheet" href="./style/home.css">
+</head>
+<body>
+  <header>
+  <div class="container">
+    <a href="/" class="logo">
+      <h2>Portal Berita</h2>
+      <span>by <b>Karteho</b></span>
+    </a>
+    
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="./index.html" class="active">Beranda</a></li>
+        <li><a href="./latest.html">Terkini</a></li>
+      </ul>
+    </nav>
+    
+    <button class="mobile-menu-btn" aria-label="Toggle menu">
+      ☰
+    </button>
+    
+    <nav class="mobile-nav" aria-label="Mobile navigation" hidden>
+      <ul>
+        <li><a href="./index.html">Beranda</a></li>
+        <li><a href="./latest.html">Terkini</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<section>
+  <div class="content-home">
+      <div id="news-container" class="news-grid">
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+    </div>
+  </div>
+</section>
+
+<script src="./script/home.js"></script>
+</body>
+</html>
