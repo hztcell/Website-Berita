@@ -27,5 +27,5 @@ export default function startScheduler() {
   }
 
   saveNews();    
-  setInterval(saveNews, 300_000);
+  setInterval(saveNews, 30_000);
 }
